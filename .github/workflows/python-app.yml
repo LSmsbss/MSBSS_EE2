@@ -1,0 +1,17 @@
+Stock_Y1=(int(input("Stock year 1 : ")))
+Stock_Y2=(int(input("Stock year 2 : ")))
+Stock_Y3=(int(input("Stock year 3 : ")))
+Stock_Y4=(int(input("Stock year 4 :")))
+Stock_Y5= (int(input("Stock year 5 : ")))
+a=(Stock_Y2-Stock_Y1)/Stock_Y1*100
+b=(Stock_Y3-Stock_Y2)/Stock_Y1*100
+c=(Stock_Y4-Stock_Y3)/Stock_Y1*100
+d=(Stock_Y5-Stock_Y4)/Stock_Y1*100
+print("percentage Year 1 - 2 : ")
+print(a,"%")
+print("percentage Year 2 - 3: ")
+print(b,"%")
+print("percentage Year 3 - 4 : ")
+print(c,"%")
+print("percentage Year 4 - 5 : ")
+print(d,"%")
